@@ -8,10 +8,13 @@ The STC Automation Test Framework is designed to validate subscription packages 
 ### 1. Dynamic Driver Fetching Using Factory Pattern
 This framework implements a factory pattern to handle the dynamic creation and configuration of WebDriver instances. This allows for flexible and easily configurable cross-browser testing with config file.
 
-### 2. Dynamic Data Fetching
+### 2. Dynamic Element Handling
+Used flexible locators and dynamic methods to fetch package titles, prices, and currencies.
+
+### 3. Dynamic Data Fetching
 The framework dynamically fetches and test data to compare with page data.
 
-### 3. POM 
+### 4. POM 
 POM for interacting with UI elements.
 
 ## Setup
