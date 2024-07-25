@@ -1,0 +1,21 @@
+default:
+  base_url: "https://subscribe.stctv.com/"
+  timeout: 10
+  report_path: "reports/behave_report.html"
+
+
+browsers:
+  chrome:
+    driver_class: "selenium.webdriver.Chrome"
+    service_class: "selenium.webdriver.chrome.service.Service"
+    driver_manager: "webdriver_manager.chrome.ChromeDriverManager"
+    options_class: "selenium.webdriver.ChromeOptions"
+    options:
+      - "--start-maximized"
+  firefox:
+    driver_class: "selenium.webdriver.Firefox"
+    service_class: "selenium.webdriver.firefox.service.Service"
+    driver_manager: "webdriver_manager.firefox.GeckoDriverManager"
+    options_class: "selenium.webdriver.FirefoxOptions"
+    options:
+      - "--start-maximized"

@@ -1,0 +1,67 @@
+{
+    "countries": [
+        {
+            "country": "sa",
+            "language": "en",
+            "packages": [
+                {
+                    "type": "LITE",
+                    "price": "15",
+                    "currency": "SAR"
+                },
+                {
+                    "type": "CLASSIC",
+                    "price": "25",
+                    "currency": "SAR"
+                },
+                {
+                    "type": "PREMIUM",
+                    "price": "60",
+                    "currency": "SAR"
+                }
+            ]
+        },
+        {
+            "country": "kw",
+            "language": "en",
+            "packages": [
+                {
+                    "type": "LITE",
+                    "price": "1.2",
+                    "currency": "KWD"
+                },
+                {
+                    "type": "CLASSIC",
+                    "price": "2.5",
+                    "currency": "KWD"
+                },
+                {
+                    "type": "PREMIUM",
+                    "price": "4.8",
+                    "currency": "KWD"
+                }
+            ]
+        },
+        {
+            "country": "bh",
+            "language": "en",
+            "packages": [
+                {
+                    "type": "LITE",
+                    "price": "2",
+                    "currency": "BHD"
+                },
+                {
+                    "type": "CLASSIC",
+                    "price": "3",
+                    "currency": "BHD"
+                },
+                {
+                    "type": "PREMIUM",
+                    "price": "6",
+                    "currency": "BHD"
+                }
+            ]
+        }
+    ]
+}
